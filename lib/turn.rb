@@ -10,8 +10,8 @@ def turn (board)
     puts "That move is invalid."
     puts "Please enter 1-9:"
     user_input = gets.strip
-    turn(board)
   end
+  turn(board)
 end
 
 def display_board(board)
